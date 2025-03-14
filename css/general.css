@@ -1,0 +1,87 @@
+@font-face {
+  font-family: tekst;
+  src: url(../Emnesite/fonts/SofiaSans-Thin.ttf);
+}
+
+@font-face {
+  font-family: h1;
+  src: url(../Emnesite/fonts/SofiaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: h2;
+  src: url(../Emnesite/fonts/SofiaSans-Light.ttf);
+}
+
+@media (width > 600px) {
+  body {
+    font-family: tekst;
+    background-color: #faf2e7;
+    color: black;
+    letter-spacing: 0em;
+  }
+  p {
+    font-family: "tekst";
+  }
+
+  h3 {
+    font-family: "tekst";
+    font-weight: 600;
+  }
+  h1 {
+    font-family: "h1";
+    text-align: center;
+    margin-top: 180px;
+  }
+  h2 {
+    font-family: "h2";
+  }
+
+  a.knap {
+    display: inline-block;
+    background-color: #faf2e7;
+    color: #955057;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px grey;
+    border: solid 5px #24528e;
+  }
+
+  img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    /* border-radius: 1rem; */
+    outline: solid 2px #2e5543;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    color: #955057;
+  }
+
+  nav a {
+    color: #955057;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(124, 5, 5);
+  }
+  /* a:hover{
+    color: brown;
+} */
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
