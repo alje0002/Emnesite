@@ -13,7 +13,7 @@
   src: url(../Emnesite/fonts/SofiaSans-Light.ttf);
 }
 
-/*  */
+/*Udenfor media er til mobilsite*/
 
 body {
   font-family: tekst;
@@ -23,7 +23,87 @@ body {
 }
 
 p {
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "tekst";
+  font-weight: 600;
+  margin-top: 20px;
+}
+h1 {
+  font-family: "h1";
+  text-align: center;
+  margin-top: 80px;
+}
+h2 {
+  font-family: "h2";
+  margin-left: 20px;
+}
+
+a.knap {
+  display: inline-block;
+  background-color: #faf2e7;
+  color: #955057;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+  border: solid 5px #24528e;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  /* border-radius: 1rem; */
+  outline: solid 2px #2e5543;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.forsideimg {
+  margin-left: 475px;
+  margin-top: 100px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-around;
+  color: #955057;
+}
+
+nav a {
+  color: #955057;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(124, 5, 5);
+}
+
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: #2e5543;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (width > 600px) {
@@ -74,8 +154,8 @@ p {
   } */
 
   img {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     display: block;
     /* border-radius: 1rem; */
     outline: solid 2px #2e5543;

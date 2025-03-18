@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/* Nedenstående er taget fra undervisningen og ned til den grønne kommentar */
+
 * {
   margin: 0;
   padding: 0;
@@ -113,3 +115,4 @@ nav {
     font-size: 24px;
   }
 }
+/* Ovenstående er taget fra undervisningen og op til den grønne kommentar */
