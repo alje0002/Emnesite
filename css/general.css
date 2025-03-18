@@ -13,6 +13,19 @@
   src: url(../Emnesite/fonts/SofiaSans-Light.ttf);
 }
 
+/*  */
+
+body {
+  font-family: tekst;
+  background-color: #faf2e7;
+  color: black;
+  letter-spacing: 0em;
+}
+
+p {
+  margin-top: 40px;
+}
+
 @media (width > 600px) {
   body {
     font-family: tekst;
@@ -54,11 +67,11 @@
     margin-right: 40px;
   }
 
-  .knapforside {
+  /* .knapforside {
     margin-top: 300px;
     margin-bottom: 40px;
     margin-right: 40px;
-  }
+  } */
 
   img {
     width: 500px;
@@ -109,11 +122,11 @@
     color: #2e5543;
   }
 
-  .footer1 {
+  /* .footer1 {
     margin-top: 200px;
     margin-left: 20px;
     color: #2e5543;
-  }
+  } */
 
   header {
     display: flex;
