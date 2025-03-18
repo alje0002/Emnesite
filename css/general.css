@@ -14,7 +14,6 @@
 }
 
 /*Udenfor media er til mobilsite*/
-
 body {
   font-family: tekst;
   background-color: #faf2e7;
@@ -68,8 +67,8 @@ img {
 }
 
 .forsideimg {
-  margin-left: 475px;
-  margin-top: 100px;
+  width: 200px;
+  height: 400px;
 }
 
 ul {
@@ -166,8 +165,12 @@ header {
   }
 
   .forsideimg {
-    margin-left: 475px;
-    margin-top: 100px;
+    width: 200px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 350px;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   ul {
