@@ -67,8 +67,15 @@ img {
 }
 
 .forsideimg {
-  width: 200px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.forsideimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 ul {
@@ -165,12 +172,8 @@ header {
   }
 
   .forsideimg {
-    width: 200px;
-    height: 500px;
-    margin-right: 20px;
-    margin-left: 350px;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    width: 450px;
+    height: 450px;
   }
 
   ul {
